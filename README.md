@@ -11,12 +11,12 @@ the modification date, and logs every operation.
 - Detects file category by extension (`Documents`, `Images`, `Videos`,
   `Archives`, `Excel`, `Presentations`, `Books`, `Fonts`, `Apps`, `Torrents`,
   `Music`; anything else goes to `Others`)
-- Переименовывает файлы с датой их изменения: `2026-10-15_отчет.pdf`
-- Создает структуру папок по годам/месяцам: `Загрузки/2026/10/Документы/`
-- Перемещает файлы в соответствующие папки
-- Избегает перезаписи при конфликтах имен, добавляет `_1`, `_2`, и т.д.
-- Регистрирует каждую операцию в `загрузки_организованные.log` и на консоль
-- Печатает окончательное резюме: файлы обработаны, перемещены, ошибки
+- Renames files with a modified date: 2026-10-15_report.pdf
+- Creates folder structure by year/month: Downloads/2026/10/Documents/
+- Moves files to the appropriate folders
+- Avoid overwriting when name conflicts, add _1, _2, etc.
+- Logs every operation to the loaded.log and console
+- Prints the final summary: files processed, moved, errors
 
 **Требования:** Python 3.12+, без внешних зависимостей.
 
