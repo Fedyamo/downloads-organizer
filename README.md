@@ -20,7 +20,7 @@ the modification date, and logs every operation.
 
 **Требования:** Python 3.12+, без внешних зависимостей.
 
-**Бег:**
+**Start:**
 ```баш
 python main.py
 ```
