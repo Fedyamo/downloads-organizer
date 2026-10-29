@@ -4,7 +4,6 @@ A Python script that automatically organizes a messy `Downloads` folder:
 it sorts files into category subfolders by year/month, renames them with
 the modification date, and logs every operation.
 
-Mini-project for module 1.1 of the "Python for Automation" course.
 
 **What it does:**
 
@@ -30,7 +29,7 @@ python main.py
 
 ## Умный органайзер Загрузки
 
-Мини-проект по модулю 1.1 курса "Python для автоматизации".
+
 Скрипт сканирует папку `Загрузки`, раскладывает файлы по категориям и датам,
 переименовывает их и логирует все операции.
 
